@@ -1,5 +1,6 @@
 # TreeSharp
 A CLI tree visualisation utility.
+[Available on NuGet.](https://www.nuget.org/packages/TreeSharp/)
 
 ```
 Leopardis
