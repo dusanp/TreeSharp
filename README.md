@@ -18,12 +18,12 @@ Leopardis
 ```
 
 
-##Usage
+## Usage
 
 Inherit the TreeNode class on the class you intend to use as your tree element, then, if desired, override the ToString method to provide a custom description in the tree. Calling GetTree on any element of the tree will provide the string form of the tree below it, PrintTree will output it into the console.
 
 
-###Parameters
+### Parameters
 
 **maxDepth**
 
@@ -34,7 +34,7 @@ The library supports infinite trees through the parameter MaxDepth: specifying i
 Specifying the indentLevel will change the amount of characters by which each level of the tree is indented. Default is 3.
 
 
-###Sample
+### Sample
 
 ```C#
 class MyNode : TreeNode<MyNode, List<MyNode>>
